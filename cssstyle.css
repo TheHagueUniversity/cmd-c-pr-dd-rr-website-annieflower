@@ -1,6 +1,13 @@
 
 * {
   margin: 0;
+	/*
+	Nu verwijder je van alle elementen de automatische margin. Dit kan af en toe
+	best handig zijn om deze nog wel te hebben, bijvoorbeeld bij <p>, <h1> en <ul>
+
+	Als je de randen rondom je website wilt weghalen kun je de margin: 0 het beste
+	op de body zetten
+	*/
   box-sizing: border-box;
 }
 header, footer, article{
@@ -27,7 +34,7 @@ main, section, article, footer {
 }
 .container {
   width: 1200px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
 .logo {
@@ -39,12 +46,15 @@ main, section, article, footer {
 .hoofdmenu {
   float: right;
   width: 500px;
-} 
+}
 
 .hoofdmenu ul li {
   float: left;
   list-style: none;
   margin: 2%;
+	/*
+	het is handiger om margins op tekstelementen gewoon in pixels te definieren
+	*/
 }
 
 .voorstellingen {
@@ -65,4 +75,3 @@ aside {
   float: left;
   width: 40%;
 }
-
