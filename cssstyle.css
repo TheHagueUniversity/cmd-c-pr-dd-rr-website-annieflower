@@ -1,6 +1,6 @@
 
 * {
-  margin: 0;
+  
 	/*
 	Nu verwijder je van alle elementen de automatische margin. Dit kan af en toe
 	best handig zijn om deze nog wel te hebben, bijvoorbeeld bij <p>, <h1> en <ul>
@@ -17,16 +17,16 @@ header, footer, article{
 footer{
 	height: 180px;
 	background-color: #98ff98;
+  width: 100%;
 }
 
 header {
-  background: lightblue;
   overflow: auto;
   height: 700px;
   width: 1200px;
 }
 main {
-  background: yellow;
+  
 }
 
 main, section, article, footer {
@@ -36,6 +36,10 @@ main, section, article, footer {
 img {
 	max-width: 100%;
 	height: auto;
+}
+body{
+  margin: 0;
+
 }
 .container {
   width: 1200px;
@@ -56,10 +60,7 @@ img {
 .hoofdmenu ul li {
   float: left;
   list-style: none;
-  margin: 2%;
-	/*
-	het is handiger om margins op tekstelementen gewoon in pixels te definieren
-	*/
+  margin: 2px;
 }
 
 .voorstellingen {
@@ -91,3 +92,39 @@ aside {
   float: left;
   width: 40%;
 }
+.zin{
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  float: left;
+ 
+}
+.biest{
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  float: left;
+}
+.vrede{
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  float: right;
+}
+.moordkerststal{
+  margin: 10px;
+  height: 400px;
+  width: 300px;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
