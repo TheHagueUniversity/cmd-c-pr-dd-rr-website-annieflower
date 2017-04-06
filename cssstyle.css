@@ -16,21 +16,26 @@ header, footer, article{
 
 footer{
 	height: 180px;
+	background-color: #98ff98;
 }
 
 header {
   background: lightblue;
   overflow: auto;
+  height: 700px;
+  width: 1200px;
 }
 main {
   background: yellow;
 }
-footer {
-  background: lightblue;
-}
+
 main, section, article, footer {
   padding: 20px;
   overflow: auto;
+}
+img {
+	max-width: 100%;
+	height: auto;
 }
 .container {
   width: 1200px;
@@ -39,7 +44,7 @@ main, section, article, footer {
 
 .logo {
   float: left;
-  width: 40%;
+  width: 100px;
   margin: 20px;
 }
 
@@ -71,6 +76,17 @@ main, section, article, footer {
 	width: 40%;
 }
 
+.afbeeldingheader{
+	background: url('afbeeldingheader1.jpg') 0 0 no-repeat;
+	overflow: auto;
+	float-left: 100%;
+}
+
+.Lidworden{
+	width: 1000px;
+	padding: 10px;
+	font-size: 20px;
+}
 aside {
   float: left;
   width: 40%;
