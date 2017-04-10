@@ -1,6 +1,6 @@
 
 * {
-  
+
 	/*
 	Nu verwijder je van alle elementen de automatische margin. Dit kan af en toe
 	best handig zijn om deze nog wel te hebben, bijvoorbeeld bij <p>, <h1> en <ul>
@@ -26,7 +26,7 @@ header {
   width: 1200px;
 }
 main {
-  
+
 }
 
 main, section, article, footer {
@@ -81,6 +81,10 @@ body{
 	background: url('afbeeldingheader1.jpg') 0 0 no-repeat;
 	overflow: auto;
 	float-left: 100%;
+	<!-- REVIEW
+bovenstaande regel klopt niet...
+float: left;
+-->
 }
 
 .Lidworden{
@@ -97,7 +101,7 @@ aside {
   height: 400px;
   width: 300px;
   float: left;
- 
+
 }
 .biest{
   margin: 10px;
@@ -117,14 +121,20 @@ aside {
   width: 300px;
   float: right;
 }
+/*
+Je herhaalt nu 4 blokken. Wat je ook kan doen is met meerdere classes werken op een element
 
+.blok {
+margin: 10px;
+height: 400px;
+width: 300px;
+}
+.bloklinks {
+float: left;
+}
+.blokrechts {
+float: right;
+}
 
-
-
-
-
-
-
-
-
-
+In je HTML zet je dan gewoon <div class="blok bloklinks"></div>
+*/
